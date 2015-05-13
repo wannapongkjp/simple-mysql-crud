@@ -1,0 +1,49 @@
+.tm-sidebar {
+	border-right: 1px solid #E5E5E5;
+}
+.uk-article {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #E5E5E5;
+}
+/* Hover */
+.tm-nav > li > a:hover,
+.tm-nav > li > a:focus,
+.tm-nav > li.uk-active > a  {
+    background: #F5F5F5;
+    color: #444;
+}
+
+.uk-placeholder {
+  margin-bottom: 15px;
+  padding: 20px;
+  border: 1px dashed #ddd;
+  background: #fafafa;
+  color: #444;
+}
+.uk-form-file {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    overflow: hidden
+}
+.uk-form-file input[type=file] {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    opacity: 0;
+    cursor: pointer;
+    left: 0;
+    font-size: 500px
+}
+
+.uk-comment-header {
+	border-bottom: 1px solid #efefef;
+	padding: 5px;
+}
+.uk-contact-box {
+	background: #eee;
+  padding: 3px;
+  bottom: 0;
+  width: 100%;
+}
